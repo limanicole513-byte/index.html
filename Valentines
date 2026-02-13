@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s Day ❤️</title>
+</head>
+
+<body style="
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#ffe6ec;
+  font-family:Arial, sans-serif;
+">
+
+  <div style="text-align:center; max-width:600px; padding:20px;">
+
+    <h1>Happy Valentine’s Day 💖</h1>
+
+    <p style="font-size:18px;">
+    Will you be my valentine ✨
+    </p>
+
+    <button onclick="playMusic()"
+      style="
+        margin-top:25px;
+        padding:14px 28px;
+        font-size:16px;
+        border:none;
+        border-radius:30px;
+        background:#ff4d6d;
+        color:white;
+        cursor:pointer;
+      ">
+      ▶ Play our song
+    </button>
+
+    <!-- YouTube embed oculto -->
+    <div id="music" style="display:none; margin-top:20px;">
+      <iframe
+        width="300"
+        height="170"
+        src="https://www.youtube.com/embed/4FK9_JN9zXU?autoplay=1"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+
+  <script>
+    function playMusic() {
+      document.getElementById("music").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>

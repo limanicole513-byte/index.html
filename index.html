@@ -20,42 +20,29 @@
     <h1>Happy Valentine’s Day 💖</h1>
 
     <p style="font-size:18px;">
-    Will you be my valentine ✨
+      Will you be my valentine ? ✨
     </p>
 
-    <button onclick="playMusic()"
+    <button
+      onclick="window.open('https://www.youtube.com/watch?v=vGJTaP6anOU', '_blank')"
       style="
-        margin-top:25px;
-        padding:14px 28px;
+        margin-top:30px;
+        padding:16px 32px;
         font-size:16px;
         border:none;
-        border-radius:30px;
+        border-radius:40px;
         background:#ff4d6d;
         color:white;
         cursor:pointer;
       ">
-      ▶ Play our song
+      🎶 Play our song
     </button>
 
-    <!-- YouTube embed oculto -->
-    <div id="music" style="display:none; margin-top:20px;">
-      <iframe
-        width="300"
-        height="170"
-        src="https://www.youtube.com/embed/4FK9_JN9zXU?autoplay=1"
-        frameborder="0"
-        allow="autoplay; encrypted-media"
-        allowfullscreen>
-      </iframe>
-    </div>
+    <p style="margin-top:25px; font-size:14px; color:#555;">
+      This song will always remind me of you 💕
+    </p>
 
   </div>
-
-  <script>
-    function playMusic() {
-      document.getElementById("music").style.display = "block";
-    }
-  </script>
 
 </body>
 </html>
